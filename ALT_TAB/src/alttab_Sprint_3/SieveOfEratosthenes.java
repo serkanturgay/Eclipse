@@ -20,7 +20,7 @@ public class SieveOfEratosthenes {
 			}
 		}
 		arrayNumber[0] = false;
-		arrayNumber[1] = false;	
+		arrayNumber[1] = false;
 		int primeNumber = 0;
 		for (boolean b : arrayNumber) {
 			if (b) {
@@ -29,7 +29,7 @@ public class SieveOfEratosthenes {
 		}
 		System.out.println("There are " + primeNumber + " Prime Numbers  ");
 		System.out.print("prime numbers from 1 to " + arrayLength + " : ");
-		
+
 		for (int i = 0; i < arrayNumber.length; i++) {
 			if (arrayNumber[i] == true) {
 				System.out.print(i + ", ");

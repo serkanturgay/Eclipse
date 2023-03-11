@@ -9,9 +9,9 @@ public class Stack_1_Test {
 		System.out.println("Size: " + stack.size());
 		System.out.println(stack.push("1"));
 		System.out.println("Size: " + stack.size());
-		System.out.println(stack.push("2"));
+		System.out.println(stack.push("12"));
 		System.out.println("Size: " + stack.size());
-		System.out.println(stack.push("3"));
+		System.out.println(stack.push("7"));
 		System.out.println("Size: " + stack.size());
 		System.out.println(stack.push("4"));
 		System.out.println("Size: " + stack.size());

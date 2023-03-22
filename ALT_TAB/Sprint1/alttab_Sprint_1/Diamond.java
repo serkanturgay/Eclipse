@@ -14,7 +14,7 @@ public class Diamond {
 				System.out.print(" ");
 			}
 			for (int j = 0; j < 1+2*i; j++) {
-				System.out.print("x");
+				System.out.print("*");
 			}
 			System.out.println();
 		}
@@ -23,7 +23,7 @@ public class Diamond {
 			for (int l = numberOfRow; l >= m ; l--) {
 				System.out.print(" ");
 			}for (int p = 1; p < 2*(m-1); p++) {
-				System.out.print("x");
+				System.out.print("*");
 			}System.out.println();
 			
 		} 

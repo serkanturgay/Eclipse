@@ -9,4 +9,5 @@ public class Course {
 	Student[] students;
 	String[] days;
 	Date time;
+	Classroom clasroom;
 }
